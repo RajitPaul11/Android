@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ShowToast"
+        android:textSize="18sp"
+        android:onClick="show_toast"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Showcalculator"
+        android:textSize="12sp"
+        android:onClick="show_calculator_activity"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class Assignment"
+        android:textSize="18sp"
+        android:onClick="show_Class_Assignment"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Data"
+        android:textSize="18sp"
+        android:onClick="send_data"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name of Student"
+        android:textSize="12sp"
+        android:id="@+id/edt1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab Evaluation1"
+        android:textSize="16sp"
+        android:onClick="Lab1"
+        />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LabEvaluation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/txtv1"
+        android:layout_weight="1"
+        android:textSize="66sp"
+        android:textColor="#0EAAA2"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks for DB"
+        android:textSize="15sp"
+        android:id="@+id/ext2"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks for DS"
+        android:textSize="15sp"
+        android:id="@+id/ext3"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marks in android"
+        android:textSize="15sp"
+        android:id="@+id/ext4"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marks in Python"
+        android:textSize="15sp"
+        android:id="@+id/ext5"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marks in AI"
+        android:textSize="15sp"
+        android:id="@+id/ext6"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW GRADE"
+        android:textSize="18sp"
+        android:onClick="Grade"
+        />
+
+</LinearLayout>
