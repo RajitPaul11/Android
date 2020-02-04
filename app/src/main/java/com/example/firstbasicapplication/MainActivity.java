@@ -77,4 +77,10 @@ public class MainActivity extends AppCompatActivity {
         i.putExtra("Name",str);
         startActivity(i);
     }
+
+    public void SearchWeb(View view)
+    {
+        Intent it=new Intent(this,Webview.class);
+        startActivity(it);
+    }
 }

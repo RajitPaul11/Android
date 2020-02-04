@@ -50,5 +50,11 @@
         android:textSize="16sp"
         android:onClick="Lab1"
         />
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web View"
+        android:textSize="30sp"
+        android:onClick="SearchWeb"
+        />
 </LinearLayout>
