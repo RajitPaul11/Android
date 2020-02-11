@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuOrdering">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger"
+        android:textSize="20sp"
+        android:id="@+id/cb1"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="150dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FrenchFries"
+        android:textSize="20sp"
+        android:id="@+id/cb2"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="150dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza"
+        android:textSize="20sp"
+        android:id="@+id/cb3"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="150dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:textSize="20sp"
+        android:onClick="Order"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GIve your feedback"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="good"
+                android:width="0dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:id="@+id/Rb1"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Average"
+                android:width="0dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:id="@+id/Rb2"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Give ratings"
+        android:textSize="30sp"
+        android:onClick="GiveRatings"
+        />
+
+</LinearLayout>
