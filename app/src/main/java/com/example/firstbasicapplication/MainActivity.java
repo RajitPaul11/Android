@@ -83,4 +83,22 @@ public class MainActivity extends AppCompatActivity {
         Intent it=new Intent(this,Webview.class);
         startActivity(it);
     }
+
+    public void Restaurant(View view)
+    {
+        Intent it=new Intent(this,MenuOrdering.class);
+        startActivity(it);
+    }
+
+    public void SharedPref(View view)
+    {
+        Intent it=new Intent(this,SharedPrefDemo.class);
+        startActivity(it);
+    }
+
+    public void Tour(View view)
+    {
+        Intent it=new Intent(this,ExploreActivity.class);
+        startActivity(it);
+    }
 }

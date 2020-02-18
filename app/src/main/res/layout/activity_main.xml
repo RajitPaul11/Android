@@ -57,4 +57,25 @@
         android:textSize="30sp"
         android:onClick="SearchWeb"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:textSize="25sp"
+        android:onClick="Restaurant"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SharedPrefDemo"
+        android:textSize="30sp"
+        android:onClick="SharedPref"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expedition"
+        android:textSize="20sp"
+        android:onClick="Tour"
+        />
 </LinearLayout>

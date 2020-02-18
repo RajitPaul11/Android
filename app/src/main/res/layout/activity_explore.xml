@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExploreActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tours And Travels"
+        android:textSize="40sp"
+        android:textColor="#066363"
+        android:layout_marginLeft="39dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:text="   Shimla"
+            android:textColor="#030D3F"
+            android:textSize="30sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Manali"
+        android:textSize="30sp"
+        android:textColor="#030D3F"
+        android:layout_weight="1"
+        android:layout_marginTop="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dalhousie"
+        android:textSize="30sp"
+        android:textColor="#030D3F"
+        android:layout_weight="1"
+        android:layout_marginTop="20sp"
+       />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:src="@drawable/manali" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:src="@drawable/shimla" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:src="@drawable/dalhousie" />
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number Of Persons"
+        android:textColor="#000000"
+        android:id="@+id/et1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number Of Days"
+        android:id="@+id/et2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:text="Cab Service"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/rg">
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:width="0dp"
+                android:text="Yes"
+                android:textSize="20sp" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb2"
+                android:layout_weight="1"
+                android:text="No"
+                android:width="0dp"
+                android:textSize="20sp"
+                />
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="CalculateTariff"
+        
+</LinearLayout>

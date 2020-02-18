@@ -17,6 +17,9 @@ public class Webview extends AppCompatActivity {
 
     public void Search(View view)
     {
-        wv.loadUrl("https://www.w3schools.com");
+       wv.loadUrl("https://www.pluralsight.com/");
+        //wv.loadUrl("file:///android_asset/Hot Cocoa Recipe.html");
+        String data="<html><body><h1>This is my first Webpage</h1></body></html>";
+        // wv.loadData(data,"text/html","UTF-8");
     }
 }
