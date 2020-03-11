@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".ExploreActivity">
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,26 +28,25 @@
             android:text="   Shimla"
             android:textColor="#030D3F"
             android:textSize="30sp" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="   Manali"
-        android:textSize="30sp"
-        android:textColor="#030D3F"
-        android:layout_weight="1"
-        android:layout_marginTop="20sp"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Dalhousie"
-        android:textSize="30sp"
-        android:textColor="#030D3F"
-        android:layout_weight="1"
-        android:layout_marginTop="20sp"
-       />
-        </LinearLayout>
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Manali"
+            android:textSize="30sp"
+            android:textColor="#030D3F"
+            android:layout_weight="1"
+            android:layout_marginTop="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dalhousie"
+            android:textSize="30sp"
+            android:textColor="#030D3F"
+            android:layout_weight="1"
+            android:layout_marginTop="20sp"
+            />
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -73,6 +71,35 @@
             android:src="@drawable/dalhousie" />
 
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3500"
+            android:textSize="25sp"
+            android:id="@+id/cb1"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="8500"
+            android:id="@+id/cb2"
+            android:textSize="25sp"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4500"
+            android:id="@+id/cb3"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -89,7 +116,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="wrap_content"
         android:text="Cab Service"
         android:textSize="25sp" />
 
@@ -122,8 +149,10 @@
         </RadioGroup>
     </LinearLayout>
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="CalculateTariff"
-        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate   Tariff"
+        android:textSize="20sp"
+        android:onClick="tariff"
+        />
 </LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quiz">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mini Quiz Application"
+        android:textSize="30sp"
+        android:layout_marginLeft="73sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q1 : Android OS is based on"
+        android:textSize="25sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+     <RadioGroup
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:id="@+id/R1">
+         <RadioButton
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Linux"
+             android:layout_weight="1"
+             android:height="0dp"
+             android:id="@+id/rb1"
+             />
+         <RadioButton
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Unix"
+             android:layout_weight="1"
+             android:height="0dp"
+             android:id="@+id/rb2"
+             />
+         <RadioButton
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="IOS"
+             android:layout_weight="1"
+             android:height="0dp"
+             android:id="@+id/rb3"
+             />
+         <RadioButton
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="OSx"
+             android:layout_weight="1"
+             android:height="0dp"
+             android:id="@+id/rb4"
+             />
+     </RadioGroup>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tick the Correct Answer"
+        android:textSize="25sp"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Through Intent we can share data"
+        android:id="@+id/cb1"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intents can also help in navigating"
+        android:id="@+id/cb2"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intents can save data permanently also"
+        android:id="@+id/cb3"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intents can change the layout of page"
+        android:id="@+id/cb4"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Answers"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:onClick="submit"
+        />
+
+</LinearLayout>

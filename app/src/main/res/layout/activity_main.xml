@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ShowToast"
-        android:textSize="18sp"
+        android:textSize="15sp"
         android:onClick="show_toast"
     />
     <Button
@@ -26,14 +26,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Class Assignment"
-        android:textSize="18sp"
+        android:textSize="15sp"
         android:onClick="show_Class_Assignment"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Send Data"
-        android:textSize="18sp"
+        android:textSize="15sp"
         android:onClick="send_data"
         />
     <EditText
@@ -47,35 +47,58 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Lab Evaluation1"
-        android:textSize="16sp"
+        android:textSize="15sp"
         android:onClick="Lab1"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Web View"
-        android:textSize="30sp"
+        android:textSize="15sp"
         android:onClick="SearchWeb"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CheckBox"
-        android:textSize="25sp"
+        android:textSize="15sp"
         android:onClick="Restaurant"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SharedPrefDemo"
-        android:textSize="30sp"
+        android:textSize="15sp"
         android:onClick="SharedPref"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Expedition"
-        android:textSize="20sp"
-        android:onClick="Tour"
+        android:textSize="15sp"
+        android:onClick="tour"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LabEval2"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:onClick="minquiz"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Media Player List VIew"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:onClick="List"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomListView"
+        android:textSize="15sp"
+        android:onClick="custom"
         />
 </LinearLayout>

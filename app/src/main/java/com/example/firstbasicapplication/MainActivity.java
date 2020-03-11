@@ -96,9 +96,27 @@ public class MainActivity extends AppCompatActivity {
         startActivity(it);
     }
 
-    public void Tour(View view)
+    public void tour(View view)
     {
-        Intent it=new Intent(this,ExploreActivity.class);
+        Intent t=new Intent(this,ExploreActivity.class);
+        startActivity(t);
+    }
+
+    public void minquiz(View view)
+    {
+        Intent it=new Intent(this,Quiz.class);
+        startActivity(it);
+    }
+
+    public void List(View view)
+    {
+        Intent it=new Intent(this,MediaPlayerActivity.class);
+        startActivity(it);
+    }
+
+    public void custom(View view)
+    {
+        Intent it=new Intent(this,StudentlistActivity.class);
         startActivity(it);
     }
 }
