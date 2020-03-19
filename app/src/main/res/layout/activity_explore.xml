@@ -56,19 +56,19 @@
             android:layout_width="wrap_content"
             android:layout_height="90dp"
             android:layout_weight="1"
-            android:src="@drawable/manali" />
+            android:src="@drawable/img1" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="90dp"
             android:layout_weight="1"
-            android:src="@drawable/shimla" />
+            android:src="@drawable/img2" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="90dp"
             android:layout_weight="1"
-            android:src="@drawable/dalhousie" />
+            android:src="@drawable/img3" />
 
     </LinearLayout>
     <LinearLayout

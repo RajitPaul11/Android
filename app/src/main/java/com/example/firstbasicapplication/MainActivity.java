@@ -119,4 +119,10 @@ public class MainActivity extends AppCompatActivity {
         Intent it=new Intent(this,StudentlistActivity.class);
         startActivity(it);
     }
+
+    public void Grid(View view)
+    {
+        Intent it=new Intent(this,CustomGridViewActivity.class);
+        startActivity(it);
+    }
 }
